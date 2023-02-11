@@ -10,7 +10,7 @@ import Foundation
 struct Camera: Identifiable {
     var id = UUID().uuidString
     var name: String
-    var asset: String
+    var adress: String
     //later rename in "adress"
 }
 

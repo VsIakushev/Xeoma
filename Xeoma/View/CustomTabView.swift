@@ -9,20 +9,18 @@ import SwiftUI
 
 struct CustomTabView: View {
     @State var selectedTab = "web.camera"
-    @State var edge = UIApplication.shared.windows.first?.safeAreaInsets
     
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom)) {
             
             // для переключения страниц боковым свайпом
             TabView(selection: $selectedTab) {
-                HomeView()
+                CamerasView()
                     .tag("web.camera")
                 DashboardView()
                     .tag("tablecells")
-                Features()
+                FeaturesView()
                     .tag("clock")
-                
                 SettingsView()
                     .tag("gearshape.fill")
             }
@@ -45,8 +43,6 @@ struct CustomTabView: View {
             .shadow(color: .black.opacity(0.15), radius: 5, x: 5, y: 5)
             .shadow(color: .black.opacity(0.15), radius: 5, x: -5, y: -5)
             .padding(.horizontal)
-            //чтобы вью могло заходить ниже табБара при скролле
-//            .padding(.bottom, edge!.bottom == 0 ? 20 : 0)
             
         }
         .ignoresSafeArea(.keyboard, edges: .bottom)
@@ -63,7 +59,6 @@ struct TabButton: View {
     var body: some View {
         Button(action: {selectedTab = image}) {
             Image(systemName: image)
-//                .resizable()
                 .renderingMode(.template)
                 .foregroundColor(selectedTab == image ? Color(.systemBlue) : .black.opacity(0.4))
                 .frame(width: 20, height: 23)

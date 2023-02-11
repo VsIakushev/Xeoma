@@ -1,5 +1,5 @@
 //
-//  CamerasView.swift
+//  FeaturesView.swift
 //  Xeoma
 //
 //  Created by Vitaliy Iakushev on 11.02.2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Features: View {
+struct FeaturesView: View {
     var body: some View {
         VStack {
             Text("View for some future Features:")
@@ -19,8 +19,8 @@ struct Features: View {
     }
 }
 
-struct CamerasView_Previews: PreviewProvider {
+struct FeaturesView_Previews: PreviewProvider {
     static var previews: some View {
-        Features()
+        FeaturesView()
     }
 }

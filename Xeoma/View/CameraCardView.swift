@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct CameraCardView: View {
     var camera: Camera
     
@@ -15,7 +16,7 @@ struct CameraCardView: View {
             VStack {
                 // Переделать потом на превью видео, а не картинки
                 
-                Image(camera.asset)
+                Image(camera.adress)
                     .resizable()
                     .renderingMode(.original)
                     .aspectRatio(contentMode: .fit)
@@ -27,7 +28,7 @@ struct CameraCardView: View {
                     VStack(alignment: .leading, spacing: 12) {
                         Text(camera.name)
                             .font(.title3)
-                        Text(camera.asset)
+                        Text(camera.adress)
                     }
                     .foregroundColor(.black)
                     
@@ -48,6 +49,6 @@ struct CameraCardView: View {
 
 struct CameraCardView_Previews: PreviewProvider {
     static var previews: some View {
-        CameraCardView(camera: Camera(name: "cam1", asset: "example1"))
+        CameraCardView(camera: Camera(name: "cam1", adress: "example1"))
     }
 }

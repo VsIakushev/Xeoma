@@ -12,6 +12,8 @@ struct XeomaApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            // .onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
+            // For closing keyboard by Tap outside of textfield
         }
     }
 }

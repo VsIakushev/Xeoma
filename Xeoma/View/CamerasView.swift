@@ -1,21 +1,21 @@
 //
-//  Home.swift
+//  CamerasView.swift
 //  Xeoma
 //
 //  Created by Vitaliy Iakushev on 10.02.2023.
 //
 
 import SwiftUI
+import AVKit
 
-struct HomeView: View {
+struct CamerasView: View {
     @State var txt = ""
-    @State var edge = UIApplication.shared.windows.first?.safeAreaInsets
     
     var cameras = [
-        Camera(name: "Cam1", asset: "example1"),
-        Camera(name: "Cam2", asset: "example2"),
-        Camera(name: "Cam3", asset: "example3"),
-        Camera(name: "Cam4", asset: "example4")
+        Camera(name: "Cam1", adress: "example1"),
+        Camera(name: "Cam2", adress: "example2"),
+        Camera(name: "Cam3", adress: "example3"),
+        Camera(name: "Cam4", adress: "example4")
         
     ]
     
@@ -79,15 +79,13 @@ struct HomeView: View {
                     .padding(.top)
                 }
                 .padding()
-//                .padding(.bottom, edge!.bottom + 70)
-                
             }
         }
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
+struct CamerasView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        CamerasView()
     }
 }

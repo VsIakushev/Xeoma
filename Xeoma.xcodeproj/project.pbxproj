@@ -19,7 +19,7 @@
 		57822F002996C73F0066B25A /* example2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57822EFC2996C73F0066B25A /* example2.mov */; };
 		57822F012996C73F0066B25A /* example4.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57822EFD2996C73F0066B25A /* example4.mov */; };
 		57822F032996D00C0066B25A /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F022996D00C0066B25A /* CustomTabView.swift */; };
-		57822F052996D9E70066B25A /* CamerasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F042996D9E70066B25A /* CamerasView.swift */; };
+		57822F052996D9E70066B25A /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F042996D9E70066B25A /* Features.swift */; };
 		57822F072996DA120066B25A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F062996DA120066B25A /* DashboardView.swift */; };
 		57822F092996DA2E0066B25A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F082996DA2E0066B25A /* SettingsView.swift */; };
 		57822F0B2996DCFC0066B25A /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F0A2996DCFC0066B25A /* VideoView.swift */; };
@@ -39,7 +39,7 @@
 		57822EFC2996C73F0066B25A /* example2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = example2.mov; sourceTree = "<group>"; };
 		57822EFD2996C73F0066B25A /* example4.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = example4.mov; sourceTree = "<group>"; };
 		57822F022996D00C0066B25A /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
-		57822F042996D9E70066B25A /* CamerasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerasView.swift; sourceTree = "<group>"; };
+		57822F042996D9E70066B25A /* Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features.swift; sourceTree = "<group>"; };
 		57822F062996DA120066B25A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		57822F082996DA2E0066B25A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		57822F0A2996DCFC0066B25A /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 				5774E8802993EEE90016378B /* XeomaApp.swift */,
 				5774E8822993EEE90016378B /* ContentView.swift */,
 				57822EEB2996BA980066B25A /* HomeView.swift */,
-				57822F042996D9E70066B25A /* CamerasView.swift */,
+				57822F042996D9E70066B25A /* Features.swift */,
 				57822F062996DA120066B25A /* DashboardView.swift */,
 				57822F082996DA2E0066B25A /* SettingsView.swift */,
 				57822F0A2996DCFC0066B25A /* VideoView.swift */,
@@ -193,7 +193,7 @@
 				57822F032996D00C0066B25A /* CustomTabView.swift in Sources */,
 				57822F0B2996DCFC0066B25A /* VideoView.swift in Sources */,
 				5774E8812993EEE90016378B /* XeomaApp.swift in Sources */,
-				57822F052996D9E70066B25A /* CamerasView.swift in Sources */,
+				57822F052996D9E70066B25A /* Features.swift in Sources */,
 				57822EF02996C5900066B25A /* CameraCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

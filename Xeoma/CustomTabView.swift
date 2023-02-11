@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomTabView: View {
-    @State var selectedTab = "house.fill"
+    @State var selectedTab = "web.camera"
     @State var edge = UIApplication.shared.windows.first?.safeAreaInsets
     
     var body: some View {
@@ -17,11 +17,12 @@ struct CustomTabView: View {
             // для переключения страниц боковым свайпом
             TabView(selection: $selectedTab) {
                 HomeView()
-                    .tag("house.fill")
-                CamerasView()
-                    .tag("web.camera.fill")
+                    .tag("web.camera")
                 DashboardView()
                     .tag("tablecells")
+                Features()
+                    .tag("clock")
+                
                 SettingsView()
                     .tag("gearshape.fill")
             }
@@ -53,7 +54,7 @@ struct CustomTabView: View {
     }
 }
 
-var tabs = ["house.fill", "web.camera.fill", "tablecells", "gearshape.fill"]
+var tabs = ["web.camera", "tablecells", "clock", "gearshape.fill"]
 
 struct TabButton: View {
     var image: String

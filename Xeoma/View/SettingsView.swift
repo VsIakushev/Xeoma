@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @AppStorage("AUTH_KEY") var authenticated = false
     
     var body: some View {
         VStack {
@@ -17,11 +18,27 @@ struct SettingsView: View {
             Text("Настройки: цвет темы, светлая, темная, авто, logOut, etc. ")
             // Добавить хранение isLogedIn в UserDefaults
 //            Text("Welcome back **\(vm.username.lowercased())**!")
-//            Button("Log out", action: vm.logOut)
+            Button("Log out", action: logOut)
                 .buttonStyle(.bordered)
             
         }
     }
+    func toggleAuthentication() {
+//        password = ""
+        withAnimation {
+            authenticated.toggle()
+        }
+    }
+    
+    func logOut() {
+        toggleAuthentication()
+//        withAnimation {
+//            authenticated = false
+////            authenticated.toggle()
+//        }
+        print(authenticated)
+    }
+    
 }
 
 struct SettingsView_Previews: PreviewProvider {

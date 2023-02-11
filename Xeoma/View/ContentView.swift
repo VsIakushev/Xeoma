@@ -13,13 +13,16 @@ struct ContentView: View {
     
     
     var body: some View {
-        if !vm.authenticated {
+        if vm.authenticated {
             // Main View
             NavigationView {
                 CustomTabView()
                     .navigationTitle("")
                     .navigationBarTitleDisplayMode(.inline)
                     .navigationBarBackButtonHidden(true)
+                    .onAppear{
+                        print(vm.authenticated)
+                    }
             }
         } else {
             // Login View

@@ -9,7 +9,9 @@ import SwiftUI
 import AVKit
 
 struct CamerasView: View {
-    @State var txt = ""
+    @State private var isAddingItem = false
+    @State private var itemToAdd = Camera(name: "", adress: "")
+    @State var searchText = ""
     
     var cameras = [
         Camera(name: "Cam1", adress: "example1"),
@@ -47,7 +49,7 @@ struct CamerasView: View {
                     HStack(spacing: 15) {
                         Image(systemName: "magnifyingglass")
                             .foregroundColor(.gray)
-                        TextField("Search camera", text: $txt)
+                        TextField("Search camera", text: $searchText)
                     }
                     .padding(.vertical, 12)
                     .padding(.horizontal)
@@ -82,6 +84,7 @@ struct CamerasView: View {
             }
         }
     }
+    
 }
 
 struct CamerasView_Previews: PreviewProvider {

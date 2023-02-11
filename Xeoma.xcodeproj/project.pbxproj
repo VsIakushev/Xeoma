@@ -24,6 +24,7 @@
 		57822F092996DA2E0066B25A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F082996DA2E0066B25A /* SettingsView.swift */; };
 		57822F0B2996DCFC0066B25A /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F0A2996DCFC0066B25A /* VideoView.swift */; };
 		57822F102997740D0066B25A /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F0F2997740D0066B25A /* Content-ViewModel.swift */; };
+		57822F12299788950066B25A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F11299788950066B25A /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		57822F082996DA2E0066B25A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		57822F0A2996DCFC0066B25A /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		57822F0F2997740D0066B25A /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
+		57822F11299788950066B25A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				57822EED2996BB3D0066B25A /* Camera.swift */,
+				57822F11299788950066B25A /* UserSettings.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57822EEE2996BB3D0066B25A /* Camera.swift in Sources */,
+				57822F12299788950066B25A /* UserSettings.swift in Sources */,
 				57822F072996DA120066B25A /* DashboardView.swift in Sources */,
 				5774E8832993EEE90016378B /* ContentView.swift in Sources */,
 				57822F092996DA2E0066B25A /* SettingsView.swift in Sources */,

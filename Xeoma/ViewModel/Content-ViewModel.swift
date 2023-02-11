@@ -15,7 +15,7 @@ extension ContentView {
             willSet { objectWillChange.send() }
         }
         @AppStorage("USER_KEY") var username = "username" //later make ""
-        @Published var password = "password" //later make ""
+        @Published var password = "" //later make ""
         @Published var invalid: Bool = false
         
         private var sampleUser = "username"
@@ -42,7 +42,9 @@ extension ContentView {
                 self.invalid = true
                 return
             }
+            self.password = ""
             toggleAuthentication()
+            
         }
         
         func logOut() {

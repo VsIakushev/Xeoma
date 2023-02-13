@@ -28,7 +28,9 @@ struct CameraCardView: View {
                     VStack(alignment: .leading, spacing: 12) {
                         Text(camera.name)
                             .font(.title3)
+                            .bold()
                         Text(camera.adress)
+                            .font(.subheadline)
                     }
                     .foregroundColor(.black)
                     
@@ -49,6 +51,6 @@ struct CameraCardView: View {
 
 struct CameraCardView_Previews: PreviewProvider {
     static var previews: some View {
-        CameraCardView(camera: Camera(name: "cam1", adress: "example1"))
+        CameraCardView(camera: Camera(name: "cam1", adress: "192.168.0.1"))
     }
 }

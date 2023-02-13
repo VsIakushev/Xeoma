@@ -7,11 +7,10 @@
 
 import Foundation
 
-struct Camera: Identifiable {
+struct Camera: Identifiable, Codable, Hashable {
     var id = UUID().uuidString
     var name: String
     var adress: String
-    //later rename in "adress"
 }
 
 

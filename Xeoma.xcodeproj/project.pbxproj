@@ -14,10 +14,6 @@
 		57822EEC2996BA980066B25A /* CamerasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822EEB2996BA980066B25A /* CamerasView.swift */; };
 		57822EEE2996BB3D0066B25A /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822EED2996BB3D0066B25A /* Camera.swift */; };
 		57822EF02996C5900066B25A /* CameraCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822EEF2996C5900066B25A /* CameraCardView.swift */; };
-		57822EFE2996C73F0066B25A /* example3.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57822EFA2996C73E0066B25A /* example3.mov */; };
-		57822EFF2996C73F0066B25A /* example1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57822EFB2996C73F0066B25A /* example1.mov */; };
-		57822F002996C73F0066B25A /* example2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57822EFC2996C73F0066B25A /* example2.mov */; };
-		57822F012996C73F0066B25A /* example4.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57822EFD2996C73F0066B25A /* example4.mov */; };
 		57822F032996D00C0066B25A /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F022996D00C0066B25A /* CustomTabView.swift */; };
 		57822F052996D9E70066B25A /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F042996D9E70066B25A /* FeaturesView.swift */; };
 		57822F072996DA120066B25A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F062996DA120066B25A /* DashboardView.swift */; };
@@ -25,6 +21,16 @@
 		57822F0B2996DCFC0066B25A /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F0A2996DCFC0066B25A /* VideoView.swift */; };
 		57822F102997740D0066B25A /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F0F2997740D0066B25A /* Content-ViewModel.swift */; };
 		57822F12299788950066B25A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F11299788950066B25A /* UserSettings.swift */; };
+		57822F162997D3190066B25A /* DashboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F152997D3190066B25A /* DashboardManager.swift */; };
+		57822F182997D7B60066B25A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F172997D7B60066B25A /* DataManager.swift */; };
+		57822F1A2997E4550066B25A /* DashboardX2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F192997E4550066B25A /* DashboardX2View.swift */; };
+		57822F1C2997F76F0066B25A /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F1B2997F76F0066B25A /* testView.swift */; };
+		57822F212998CAB40066B25A /* 192.168.0.1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57822F1D2998CAB30066B25A /* 192.168.0.1.mov */; };
+		57822F222998CAB40066B25A /* 192.168.0.4.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57822F1E2998CAB40066B25A /* 192.168.0.4.mov */; };
+		57822F232998CAB40066B25A /* 192.168.0.2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57822F1F2998CAB40066B25A /* 192.168.0.2.mov */; };
+		57822F242998CAB40066B25A /* 192.168.0.3.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57822F202998CAB40066B25A /* 192.168.0.3.mov */; };
+		57822F26299952BE0066B25A /* DashboardX3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F25299952BE0066B25A /* DashboardX3View.swift */; };
+		57822F28299A24C10066B25A /* DashboardX4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57822F27299A24C10066B25A /* DashboardX4View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,17 +42,23 @@
 		57822EEB2996BA980066B25A /* CamerasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamerasView.swift; sourceTree = "<group>"; };
 		57822EED2996BB3D0066B25A /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		57822EEF2996C5900066B25A /* CameraCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCardView.swift; sourceTree = "<group>"; };
-		57822EFA2996C73E0066B25A /* example3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = example3.mov; sourceTree = "<group>"; };
-		57822EFB2996C73F0066B25A /* example1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = example1.mov; sourceTree = "<group>"; };
-		57822EFC2996C73F0066B25A /* example2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = example2.mov; sourceTree = "<group>"; };
-		57822EFD2996C73F0066B25A /* example4.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = example4.mov; sourceTree = "<group>"; };
 		57822F022996D00C0066B25A /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		57822F042996D9E70066B25A /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
-		57822F062996DA120066B25A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		57822F062996DA120066B25A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		57822F082996DA2E0066B25A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		57822F0A2996DCFC0066B25A /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		57822F0F2997740D0066B25A /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
 		57822F11299788950066B25A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		57822F152997D3190066B25A /* DashboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardManager.swift; sourceTree = "<group>"; };
+		57822F172997D7B60066B25A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		57822F192997E4550066B25A /* DashboardX2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardX2View.swift; sourceTree = "<group>"; };
+		57822F1B2997F76F0066B25A /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
+		57822F1D2998CAB30066B25A /* 192.168.0.1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 192.168.0.1.mov; sourceTree = "<group>"; };
+		57822F1E2998CAB40066B25A /* 192.168.0.4.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 192.168.0.4.mov; sourceTree = "<group>"; };
+		57822F1F2998CAB40066B25A /* 192.168.0.2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 192.168.0.2.mov; sourceTree = "<group>"; };
+		57822F202998CAB40066B25A /* 192.168.0.3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 192.168.0.3.mov; sourceTree = "<group>"; };
+		57822F25299952BE0066B25A /* DashboardX3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardX3View.swift; sourceTree = "<group>"; };
+		57822F27299A24C10066B25A /* DashboardX4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardX4View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				5774E8802993EEE90016378B /* XeomaApp.swift */,
+				57822F152997D3190066B25A /* DashboardManager.swift */,
 				57822F0C299772790066B25A /* View */,
 				57822F0E299773D70066B25A /* ViewModel */,
 				57822F0D299773CD0066B25A /* Data */,
@@ -101,10 +114,10 @@
 		57822EF12996C71F0066B25A /* Examples */ = {
 			isa = PBXGroup;
 			children = (
-				57822EFB2996C73F0066B25A /* example1.mov */,
-				57822EFC2996C73F0066B25A /* example2.mov */,
-				57822EFA2996C73E0066B25A /* example3.mov */,
-				57822EFD2996C73F0066B25A /* example4.mov */,
+				57822F1D2998CAB30066B25A /* 192.168.0.1.mov */,
+				57822F1F2998CAB40066B25A /* 192.168.0.2.mov */,
+				57822F202998CAB40066B25A /* 192.168.0.3.mov */,
+				57822F1E2998CAB40066B25A /* 192.168.0.4.mov */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -116,10 +129,14 @@
 				57822F022996D00C0066B25A /* CustomTabView.swift */,
 				57822EEB2996BA980066B25A /* CamerasView.swift */,
 				57822F062996DA120066B25A /* DashboardView.swift */,
+				57822F192997E4550066B25A /* DashboardX2View.swift */,
+				57822F25299952BE0066B25A /* DashboardX3View.swift */,
+				57822F27299A24C10066B25A /* DashboardX4View.swift */,
 				57822F042996D9E70066B25A /* FeaturesView.swift */,
 				57822F082996DA2E0066B25A /* SettingsView.swift */,
 				57822EEF2996C5900066B25A /* CameraCardView.swift */,
 				57822F0A2996DCFC0066B25A /* VideoView.swift */,
+				57822F1B2997F76F0066B25A /* testView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -128,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				57822EED2996BB3D0066B25A /* Camera.swift */,
+				57822F172997D7B60066B25A /* DataManager.swift */,
 				57822F11299788950066B25A /* UserSettings.swift */,
 			);
 			path = Data;
@@ -199,12 +217,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57822F222998CAB40066B25A /* 192.168.0.4.mov in Resources */,
+				57822F212998CAB40066B25A /* 192.168.0.1.mov in Resources */,
 				5774E8882993EEEB0016378B /* Preview Assets.xcassets in Resources */,
-				57822EFF2996C73F0066B25A /* example1.mov in Resources */,
-				57822EFE2996C73F0066B25A /* example3.mov in Resources */,
-				57822F012996C73F0066B25A /* example4.mov in Resources */,
+				57822F242998CAB40066B25A /* 192.168.0.3.mov in Resources */,
 				5774E8852993EEEB0016378B /* Assets.xcassets in Resources */,
-				57822F002996C73F0066B25A /* example2.mov in Resources */,
+				57822F232998CAB40066B25A /* 192.168.0.2.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,14 +234,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				57822EEE2996BB3D0066B25A /* Camera.swift in Sources */,
+				57822F28299A24C10066B25A /* DashboardX4View.swift in Sources */,
 				57822F12299788950066B25A /* UserSettings.swift in Sources */,
 				57822F072996DA120066B25A /* DashboardView.swift in Sources */,
+				57822F182997D7B60066B25A /* DataManager.swift in Sources */,
+				57822F1C2997F76F0066B25A /* testView.swift in Sources */,
 				5774E8832993EEE90016378B /* ContentView.swift in Sources */,
+				57822F26299952BE0066B25A /* DashboardX3View.swift in Sources */,
 				57822F092996DA2E0066B25A /* SettingsView.swift in Sources */,
 				57822EEC2996BA980066B25A /* CamerasView.swift in Sources */,
 				57822F032996D00C0066B25A /* CustomTabView.swift in Sources */,
+				57822F162997D3190066B25A /* DashboardManager.swift in Sources */,
 				57822F0B2996DCFC0066B25A /* VideoView.swift in Sources */,
 				5774E8812993EEE90016378B /* XeomaApp.swift in Sources */,
+				57822F1A2997E4550066B25A /* DashboardX2View.swift in Sources */,
 				57822F052996D9E70066B25A /* FeaturesView.swift in Sources */,
 				57822EF02996C5900066B25A /* CameraCardView.swift in Sources */,
 				57822F102997740D0066B25A /* Content-ViewModel.swift in Sources */,

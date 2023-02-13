@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @AppStorage("AUTH_KEY") var authenticated = false
+    @State var isLogged: Bool = true
     
     var body: some View {
         VStack {
@@ -27,6 +28,7 @@ struct SettingsView: View {
 //        password = ""
         withAnimation {
             authenticated.toggle()
+            isLogged = false
         }
     }
     
